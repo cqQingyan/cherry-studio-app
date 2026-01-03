@@ -2242,7 +2242,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.18.6, @babel/runtime@npm:^7.20.0, @babel/runtime@npm:^7.23.2, @babel/runtime@npm:^7.25.0, @babel/runtime@npm:^7.26.10, @babel/runtime@npm:^7.26.9, @babel/runtime@npm:^7.27.6, @babel/runtime@npm:^7.3.1":
+"@babel/runtime@npm:^7.18.6, @babel/runtime@npm:^7.20.0, @babel/runtime@npm:^7.23.2, @babel/runtime@npm:^7.25.0, @babel/runtime@npm:^7.26.10, @babel/runtime@npm:^7.26.9, @babel/runtime@npm:^7.27.6, @babel/runtime@npm:^7.28.4, @babel/runtime@npm:^7.3.1":
   version: 7.28.4
   resolution: "@babel/runtime@npm:7.28.4"
   checksum: 10c0/792ce7af9750fb9b93879cc9d1db175701c4689da890e6ced242ea0207c9da411ccf16dc04e689cc01158b28d7898c40d75598f4559109f761c12ce01e959bf7
@@ -7074,6 +7074,7 @@ __metadata:
     "@aws-sdk/client-s3": "npm:^3.840.0"
     "@babel/core": "npm:^7.25.2"
     "@babel/plugin-transform-class-static-block": "npm:^7.27.1"
+    "@babel/runtime": "npm:^7.28.4"
     "@callstack/liquid-glass": "npm:^0.6.1"
     "@cherrystudio/ai-core": "npm:^1.0.9"
     "@cherrystudio/ai-sdk-provider": "npm:^0.1.3"
@@ -7231,6 +7232,7 @@ __metadata:
     react-redux: "npm:^9.2.0"
     react-syntax-highlighter: "npm:^15.6.1"
     react-test-renderer: "npm:~19.0.0"
+    redux: "npm:^5.0.1"
     redux-devtools-expo-dev-plugin: "npm:^2.0.0"
     redux-persist: "npm:^6.0.0"
     remark-stringify: "npm:^11.0.0"
@@ -7251,6 +7253,7 @@ __metadata:
     vitest: "npm:^3.2.4"
     webdav: "npm:^5.8.0"
     zeego: "npm:^3.0.6"
+    zod: "npm:^4.3.4"
   languageName: unknown
   linkType: soft
 
@@ -20085,6 +20088,13 @@ __metadata:
   version: 4.1.12
   resolution: "zod@npm:4.1.12"
   checksum: 10c0/b64c1feb19e99d77075261eaf613e0b2be4dfcd3551eff65ad8b4f2a079b61e379854d066f7d447491fcf193f45babd8095551a9d47973d30b46b6d8e2c46774
+  languageName: node
+  linkType: hard
+
+"zod@npm:^4.3.4":
+  version: 4.3.4
+  resolution: "zod@npm:4.3.4"
+  checksum: 10c0/a096102c8b31ecdb913bacb08d5a0fe8447bbe4f54cff421a0c5830a5552da76aae9fd8a01f2e9fdeaae35da1a73762551bc9d14cfedb13a44056de1ed2eb76f
   languageName: node
   linkType: hard
 
