@@ -14,7 +14,7 @@ import {
   XStack,
   YStack
 } from '@/componentsV2'
-import { FolderSearch2, Wifi } from '@/componentsV2/icons/LucideIcon'
+import { CircleDollarSign, FolderSearch2, Wifi } from '@/componentsV2/icons/LucideIcon'
 import type { NavigationProps } from '@/types/naviagate'
 
 interface SettingItemConfig {
@@ -45,6 +45,11 @@ export default function DataSettingsScreen() {
           title: t('settings.data.lan_transfer.title'),
           icon: <Wifi size={24} />,
           screen: 'LanTransferScreen'
+        },
+        {
+          title: t('settings.data.usage.title', { defaultValue: 'Token Usage' }),
+          icon: <CircleDollarSign size={24} />,
+          screen: 'UsageScreen'
         }
       ]
     }

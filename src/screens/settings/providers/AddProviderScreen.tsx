@@ -39,12 +39,18 @@ export default function AddProviderScreen() {
   }
 
   const createProviderData = (): Provider => {
+    let defaultApiHost = ''
+    if (selectedProviderType === 'ollama') {
+      // Default to localhost, user will need to change for LAN
+      defaultApiHost = 'http://127.0.0.1:11434/v1'
+    }
+
     return {
       id: providerId,
       type: selectedProviderType ?? 'openai',
       name: providerName,
       apiKey: '',
-      apiHost: '',
+      apiHost: defaultApiHost,
       models: []
     }
   }

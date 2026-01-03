@@ -214,6 +214,14 @@ export function providerToAiSdkConfig(
 
   // 否则fallback到openai-compatible
   const options = ProviderConfigFactory.createOpenAICompatible(baseConfig.baseURL, baseConfig.apiKey)
+
+  if (actualProvider.type === 'ollama') {
+    // For Ollama, allow empty apiKey if it's not set
+    if (!options.apiKey) {
+      options.apiKey = 'ollama' // Dummy key
+    }
+  }
+
   return {
     providerId: 'openai-compatible',
     options: {

@@ -34,7 +34,8 @@ const providerOptions: DisplayOptionItem[] = [
   { label: 'Anthropic', value: 'anthropic' },
   { label: 'Azure OpenAI', value: 'azure-openai' },
   { label: 'New API', value: 'new-api' },
-  { label: 'CherryIN', value: 'cherry-in', mappedValue: 'new-api' }
+  { label: 'CherryIN', value: 'cherry-in', mappedValue: 'new-api' },
+  { label: 'Ollama', value: 'ollama' }
 ]
 
 export function ProviderSelect({ value, onValueChange, placeholder, className }: ProviderSelectProps) {
